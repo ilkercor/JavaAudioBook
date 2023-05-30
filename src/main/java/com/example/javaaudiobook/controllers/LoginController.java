@@ -31,9 +31,6 @@ public class LoginController implements Initializable {
     }
 
     @FXML
-    private Button signup;
-
-    @FXML
     private TextField username;
 
     @FXML
@@ -41,9 +38,6 @@ public class LoginController implements Initializable {
 
     @FXML
     private Button login;
-
-    @FXML
-    private CheckBox remember;
 
 
     @FXML

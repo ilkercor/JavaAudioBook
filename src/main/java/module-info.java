@@ -6,6 +6,7 @@ module com.example.javaaudiobook {
     requires com.dlsc.formsfx;
     requires org.kordamp.ikonli.javafx;
     requires java.sql;
+    requires javafx.media;
 
     opens com.example.javaaudiobook to javafx.fxml;
     exports com.example.javaaudiobook;

@@ -52,14 +52,6 @@ public class HomePageController implements Initializable {
         }
     }
 
-    @FXML
-    private Button mybooks;
-
-    @FXML
-    private Button history;
-
-    @FXML
-    private Button homebutton;
 
     public void homeclick(){
         setNode(home);

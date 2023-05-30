@@ -18,7 +18,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="hpsecond" alignment="CENTER" contentDisplay="TOP" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" onAction="#hpsecondbook" prefHeight="220.0" prefWidth="161.0" text="Harry Potter and Secrets of Chamber - J. K. Rowling" textAlignment="CENTER" wrapText="true">
+      <Button fx:id="hpsecond" alignment="CENTER" contentDisplay="TOP" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" onAction="#hpsecondbook" prefHeight="220.0" prefWidth="161.0" text="Harry Potter and Chamber of Secrets - J. K. Rowling" textAlignment="CENTER" wrapText="true">
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
