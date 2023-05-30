@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f47c24; -fx-border-color: #b7c0cb; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaudiobook.controllers.LoginController">
+   <children>
+      <TextField fx:id="username" layoutX="275.0" layoutY="270.0" prefHeight="25.0" prefWidth="251.0" promptText="Enter Username" style="-fx-background-color: #fcdc82;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <PasswordField fx:id="password" layoutX="275.0" layoutY="329.0" prefHeight="25.0" prefWidth="251.0" promptText="Enter Password" style="-fx-background-color: #fcdc82;">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+      <ImageView fitHeight="110.0" fitWidth="131.0" layoutX="224.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" layoutX="350.0" layoutY="462.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: #561d0d;" text="Login" textFill="#f47c24">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="signup" layoutX="686.0" layoutY="14.0" mnemonicParsing="false" onAction="#signupAction" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: #561d0d;" text="Sign Up" textFill="#f47c24">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="322.0" layoutY="135.0" prefHeight="71.0" prefWidth="204.0" text="Audio Book" textFill="#b7c0cb">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="248.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="248.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/password.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

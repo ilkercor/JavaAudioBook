@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f47c24; -fx-border-color: #b7c0cb; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaudiobook.controllers.HomePageController">
+   <children>
+      <Pane layoutX="15.0" layoutY="5.0" prefHeight="590.0" prefWidth="229.0" style="-fx-background-color: #a7866e;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="571.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Label layoutX="8.0" layoutY="138.0" text="Audio Book" textFill="#b7c0cb">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logo.png" />
+               </image>
+            </ImageView>
+            <Line endX="100.0" layoutX="107.0" layoutY="202.0" startX="-100.0" />
+            <AnchorPane layoutX="7.0" layoutY="220.0">
+               <children>
+                  <Line endX="100.0" layoutX="96.0" layoutY="130.0" startX="-100.0" />
+                  <Label contentDisplay="TOP" focusTraversable="false" layoutX="-2.0" layoutY="-18.0" lineSpacing="1.0" prefHeight="141.0" prefWidth="201.0" text="Welcome to Audio Book. Here, you can choose a book from menu." textAlignment="CENTER" textFill="#561d0d" textOverrun="CLIP" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="7.0" layoutY="351.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="46.0" layoutY="14.0" text="DASHBOARD">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="homebutton" layoutX="40.0" layoutY="100.0" mnemonicParsing="false" onAction="#homeclick" prefHeight="46.0" prefWidth="113.0" style="-fx-background-color: #a7866e; -fx-border-color: #000;" text="Home">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+      <Pane layoutX="224.0" layoutY="10.0" prefHeight="71.0" prefWidth="563.0" style="-fx-background-color: #a7866e;">
+         <children>
+            <Label layoutX="242.0" layoutY="23.0" text="WELCOME">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="logoutbutton" layoutX="497.0" layoutY="23.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: #b7c0cb;" text="Logout" />
+         </children>
+      </Pane>
+      <AnchorPane fx:id="holderPane" layoutX="224.0" layoutY="81.0" prefHeight="510.0" prefWidth="560.0" />
+   </children>
+</AnchorPane>

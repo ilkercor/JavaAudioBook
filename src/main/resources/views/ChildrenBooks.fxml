@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="510.0" prefWidth="560.0" style="-fx-background-color: #f47c24;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaudiobook.controllers.ChildrenBooksController">
+   <children>
+      <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="211.0" prefWidth="161.0" text="Rapunzel - The Brothers Grimm" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/rapunzel.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" prefHeight="211.0" prefWidth="161.0" text="Alice in Wonderland - Lewis Caroll" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/alice.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="385.0" layoutY="14.0" mnemonicParsing="false" prefHeight="211.0" prefWidth="161.0" text="Pinocchio - Carlo Collodi" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pinocchio.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="backbutton" layoutX="505.0" layoutY="471.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+   </children>
+</AnchorPane>

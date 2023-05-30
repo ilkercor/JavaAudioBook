@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="510.0" prefWidth="560.0" style="-fx-background-color: #f47c24;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaudiobook.controllers.CategoriesController">
+   <children>
+      <Button fx:id="childrenbutton" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#childrenAction" prefHeight="220.0" prefWidth="240.0" style="-fx-background-color: #b7c0cb;" text="Children">
+         <graphic>
+            <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/children.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="sciencebutton" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="276.0" mnemonicParsing="false" onAction="#scienceAction" prefHeight="220.0" prefWidth="240.0" style="-fx-background-color: #b7c0cb;" text="Science">
+         <graphic>
+            <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/science.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="fantasybutton" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="306.0" layoutY="14.0" mnemonicParsing="false" onAction="#fantasyAction" prefHeight="220.0" prefWidth="240.0" style="-fx-background-color: #b7c0cb;" text="Fantasy">
+         <graphic>
+            <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/fantasy.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="biographybutton" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="306.0" layoutY="276.0" mnemonicParsing="false" onAction="#biographyAction" prefHeight="220.0" prefWidth="240.0" style="-fx-background-color: #b7c0cb;" text="Biography">
+         <graphic>
+            <ImageView fitHeight="180.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/biography.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

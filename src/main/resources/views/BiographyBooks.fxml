@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="510.0" prefWidth="560.0" style="-fx-background-color: #f47c24;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaudiobook.controllers.BiographyBooksController">
+   <children>
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="161.0" text="Einstein - Walter Isaacson" textAlignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/einstein.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="161.0" text="Bill Gates - Calvin Stanton" textAlignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/billgates.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="TOP" layoutX="385.0" layoutY="14.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="161.0" text="William Shakespeare - Sidney Lee" textAlignment="CENTER" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/shakespeare.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="backbutton" layoutX="505.0" layoutY="471.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+   </children>
+</AnchorPane>
